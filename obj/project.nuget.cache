@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "x6h2J7CtkNCBnFplbGvjdqHk+F32h3bkWX69G6iHrIJh5xOtol/MR0v2HGc8ydmvsJYdAwrTAD3Tl+BtaFd5Mg==",
+  "success": true,
+  "projectFilePath": "D:\\Учеба\\Вычислительные методы\\CalculationMethods_L1_WPF\\CalculationMethods_L1_WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dmkuz\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\scottplot\\4.1.68\\scottplot.4.1.68.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\scottplot.wpf\\4.1.68\\scottplot.wpf.4.1.68.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
