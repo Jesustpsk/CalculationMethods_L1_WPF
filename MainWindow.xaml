@@ -43,23 +43,23 @@
             
             <Canvas Grid.Row="2" Grid.Column="2" Width="10" Height="10" Background="Red"
                     Margin="0 0 500 200" Name="BisectionColor"></Canvas>
-            <Label Grid.Row="2" Grid.Column="2" Width="120" Height="30"
-                   Margin="0 0 370 200">- Bisection Method</Label>
+            <Label Grid.Row="2" Grid.Column="2" Height="30"
+                   Margin="30 0 0 200" Name = "BisLabel">- Bisection Method</Label>
             
             <Canvas Grid.Row="2" Grid.Column="2" Width="10" Height="10" Background="Blue"
                     Margin="0 0 500 150" Name="NewtonColor"></Canvas>
-            <Label Grid.Row="2" Grid.Column="2" Width="120" Height="30"
-                   Margin="0 0 370 150">- Newton Method</Label>
+            <Label Grid.Row="2" Grid.Column="2" Height="30"
+                   Margin="30 0 0 150" Name="NewLabel">- Newton Method</Label>
             
             <Canvas Grid.Row="2" Grid.Column="2" Width="10" Height="10" Background="Fuchsia"
                     Margin="0 0 500 100" Name="CombinedColor"></Canvas>
-            <Label Grid.Row="2" Grid.Column="2" Width="120" Height="30"
-                   Margin="0 0 370 100">- Combined Method</Label>
+            <Label Grid.Row="2" Grid.Column="2" Height="30"
+                   Margin="30 0 0 100" Name="CombLabel">- Combined Method</Label>
             
             <Canvas Grid.Row="2" Grid.Column="2" Width="10" Height="10" Background="Green"
                     Margin="0 0 500 50" Name="ChordColor"></Canvas>
-            <Label Grid.Row="2" Grid.Column="2" Width="120" Height="30"
-                   Margin="0 0 370 50">- Chord Method</Label>
+            <Label Grid.Row="2" Grid.Column="2" Height="30"
+                   Margin="30 0 0 50" Name="ChorLabel">- Chord Method</Label>
         </Grid>
         
 </Window>

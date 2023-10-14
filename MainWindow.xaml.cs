@@ -45,6 +45,10 @@ namespace CalculationMethods_L1_WPF
         }
         private void ButtonStart_OnClick(object sender, RoutedEventArgs e)
         {
+            BisLabel.Content = "- Bisection Method";
+            NewLabel.Content = "- Newton Method";
+            CombLabel.Content = "- Combined Method";
+            ChorLabel.Content = "- Chord Method";
             MyPlot.Plot.Clear();
             var a = Double.Parse(InputA.Text.Replace('.', ','));
             var b = Double.Parse(InputB.Text.Replace('.', ','));
@@ -60,6 +64,10 @@ namespace CalculationMethods_L1_WPF
             MyPlot.Plot.AddHorizontalLine(y: 0, color: Color.Black, width: 1);
             
             MyPlot.Refresh();
+            BisLabel.Content = "- Bisection Method" + $" / Root: {BisectionMethod(a, b, tolerance)}";
+            NewLabel.Content = "- Newton Method"+ $" / Root: {NewtonMethod(a, b, tolerance)}";;
+            CombLabel.Content = "- Combined Method"+ $" / Root: {CombinedMethod(a, b, tolerance)}";;
+            ChorLabel.Content = "- Chord Method"+ $" / Root: {ChordMethod(a, b, tolerance)}";;
         }
     }
 }
